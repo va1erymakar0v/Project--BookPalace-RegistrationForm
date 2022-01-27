@@ -1,0 +1,113 @@
+@media (max-width: 1439px) {
+	.book-palace__form.container {
+		margin: 0;
+	}
+
+	.registration-field {
+		width: 100%;
+	}
+
+	.form__registration {
+		width: 407px;
+
+		margin: 0 auto;
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.registration__login {
+		margin-bottom: 40px;
+	}
+
+	.book-field {
+		width: 100%;
+	}
+
+	.form__book {
+		max-width: 593px;
+
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 150px;
+		padding-bottom: 130px;
+		margin: 0 auto;
+	}
+
+	.book__logo {
+		left: 50%;
+		transform: translateX(-50%);
+
+	}
+}
+
+@media (max-width: 593px) {
+	.form__book {
+		width: 100%;
+
+		padding-top: 170px;
+	}
+
+	.book__slider {
+		width: 360px;
+		margin: 0 auto;
+	}
+	.slider__line {
+		width: calc(400px *3);
+	}
+
+	.book__title,
+	.book__subtitle {
+		display: flex;
+		flex-direction: column;
+
+		text-align: center;
+	}
+
+	.reviews-title,
+	.review1__text,
+	.review2__text {
+		display: none;
+	}
+
+	.book__item {
+		grid-template-columns: 360px;
+		grid-template-rows: repeat(3, auto);
+
+		grid-template-areas: 'cover' 
+							 'author1' 
+							 'author2';
+
+	    /*padding: 0 50px;*/
+	}
+
+	.item__cover {
+		margin: 0 auto;
+		padding: 9px 26px 9px 26px;
+	}
+
+	.revew1__author,
+	.revew2__author {
+		justify-content: center;
+	}
+
+	.revew1__author {
+		margin-top: 15px;
+	}
+
+	.review1__stars,
+	.review2__stars {
+		margin-left: 45px;
+	}
+}
+
+@media (max-width: 450px) {
+	.form__registration {
+		width: 330px;
+	}
+
+	.registration__google {
+		padding: 18px 30px;
+	}
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/adaptive.css">
+		<title>Registration</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="book-palace__form container">
+				<div class="registration-field">
+					<div class="form__registration">
+						<p class="registration__login">Have an account? <a href="#">Login Here</a></p>
+						<h1 class="registration__title title">Create Your Account</h1>
+						<h2 class="registration__subtitle subtitle">Read your favorite ebook and explore more ebook to read.</h2>
+						<button class="registration__google">
+							<img class="google__logo" src="img/google.svg">
+							<p class="google__text">Get started with Google</p>
+						</button>
+						<p class="registration__line">Or</p>
+						<form class="registration__main">
+							<div class="registration__input">
+								<div class="registration__item">
+									<p class="item__label">Full Name</p>
+									<input type="text" class="item__input" id="name_input" placeholder="Book Palace">
+								</div>
+								<div class="registration__item">
+									<p class="item__label">Email Address</p>
+									<input type="email" class="item__input" id="email_input" placeholder="myebook@bookplaace.com">
+								</div>
+								<div class="registration__item">
+									<p class="item__label">Password</p>
+									<div class="item__password-field">
+										<input type="password" required class="item__input" id="password_input"placeholder="●●●●●●">
+										<button id="show_password" class="item__show-password"><img src="img/eye.svg"></button>
+										<button id="hide_password" class="item__hide-password"><img src="img/eyeoff.svg"></button>
+									</div>
+								</div>
+							</div> <!-- registration__input -->
+							<div class="input__policy">
+								<span class="policy__checkbox"><img class="policy__checkbox_checked-img" src="img/checked.svg"></span>
+								<p class="policy__agreement">Creating an account means you’re okay with our <a href="#">Terms of Service, Privacy Policy</a>, and our default <a href="#">Notification Setttings</a>.<p>
+							</div>
+							<input type="submit" value="Create Account" id="create_button" class="input__create">
+						</form>
+					</div> <!-- reg form -->
+				</div> <!-- reg field -->
+				<div class="book-field">
+					<span class="book__logo">Book Palace</span>
+					<div class="form__book">
+						<h1 class="book__title title">Popular <span>on Book Palace</span></h1>
+						<h2 class="book__subtitle subtitle">Recommended for you to <span class="book__subtitle_about"></span></h2>
+						<div class="book__slider">
+							<div class="slider__line">
+								<div class="book__item psychologyofmoney">
+									<img src="img/cover1.jpg" style="width: 321px; height: 428px;" class="item__cover">
+									<p class="reviews-title">Review by reader</p>
+									<div class="review1">
+										<div class="revew1__author">
+											<p class="revew1__author__name">Ronald Richards</p>
+											<div class="review1__stars">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+											</div>
+										</div>
+										<p class="review1__text">
+											This book is awesome. I was skeptical at first thinking - here's another book on finance. But this is not just finance. Its way more than that. There couldn't possibly be a better title for this book. Truly the psychology of money.
+										</p>
+									</div> <!-- rev1 -->
+
+									<div class="review2">
+										<div class="revew2__author">
+											<p class="revew2__author__name">Jenny Wilson</p>
+											<div class="review2__stars">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/halfstar.svg">
+											</div>
+										</div>
+										<p class="review2__text">
+											A great book teaching us to view our money differently. money is not just about numbers and formulas. Money is more about different people from different backgrounds all interacting with each other.
+										</p>
+									</div> 
+								</div> <!-- book1 -->
+ 
+								<div class="book__item sugarrun">
+									<img src="img/cover2.jpg" style="width: 321px; height: 428px;" class="item__cover">
+									<p class="reviews-title">Review by reader</p>
+									<div class="review1">
+										<div class="revew1__author">
+											<p class="revew1__author__name">Susan Polanski</p>
+											<div class="review1__stars">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+											</div>
+										</div>
+										<p class="review1__text">
+											There are times, when the cards are stacked against you. Be it of your own making or simply the cut of the deck on any given day. In “Sugar Run” - try as hard as she might, Jodi just can’t catch a break.
+										</p>
+									</div>
+
+									<div class="review2">
+										<div class="revew2__author">
+											<p class="revew2__author__name">Erin Glover</p>
+											<div class="review2__stars">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/zerostar.svg">
+											</div>
+										</div>
+										<p class="review2__text">
+											The writing is gorgeous. I felt as though I were in West Virginia, marveling at the lush Appalachian Mountains. This is a story we don't often read about--what life is like for an ex-convict returning to life in rural Appalachia.
+										</p>
+									</div>
+								</div> <!-- book2 -->
+
+								<div class="book__item disastertourist">
+									<img src="img/cover3.jpg" style="width: 321px; height: 428px;" class="item__cover">
+									<p class="reviews-title">Review by reader</p>
+									<div class="review1">
+										<div class="revew1__author">
+											<p class="revew1__author__name">Gerhard Johnas</p>
+											<div class="review1__stars">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/halfstar.svg">
+												<img src="img/zerostar.svg">
+											</div>
+										</div>
+										<p class="review1__text">
+											This is one of those books where the less you know about it, the more visceral the impact is. I am always puzzled by the ‘why’ of book-jacket descriptions, and in this instance I think it definitely gives too much away.
+										</p>
+									</div>
+
+									<div class="review2">
+										<div class="revew2__author">
+											<p class="revew2__author__name">Alexandra Malone</p>
+											<div class="review2__stars">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+												<img src="img/star.svg">
+											</div>
+										</div>
+										<p class="review2__text">
+											I give this book a 5, because the main premise really speaks to me. Also, I think it nicely combines various elements and styles which I liked elsewhere, e.g., in a movie ’The Wicker Man’
+										</p>
+									</div>
+								</div>  <!-- book3 -->
+							</div> <!-- slider line -->
+						</div> <!-- slider -->
+						<div class="book__control-panel">
+							<button class="slider-prev"><img src="img/arrowleft.svg"></button>
+							<p class="slider-count"><span class="slider-current"></span>/<span class="slider-all"></span></p>
+							<button class="slider-next"><img src="img/arrowright.svg"></button>
+						</div>
+					</div>
+				</div>
+			</div> <!--------book-palace__form container -->
+		</div> <!-------- wrapper -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
